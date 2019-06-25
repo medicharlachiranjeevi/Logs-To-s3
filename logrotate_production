@@ -1,0 +1,11 @@
+/production_log_path/*.log {
+    su user user
+	daily
+	missingok
+	rotate 14
+	compress
+        nodelaycompress
+	notifempty
+        copytruncate
+
+}
